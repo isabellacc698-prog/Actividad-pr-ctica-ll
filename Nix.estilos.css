@@ -1,0 +1,85 @@
+/* Página completa */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaf4ff;
+    color: #12304a;
+}
+
+/* Encabezado */
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+}
+
+/* Logo */
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Menú */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/* Cuando pasas el mouse por el menú */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido */
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Imagen */
+img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Secciones */
+section {
+    margin: 35px 0;
+}
+
+/* Botones */
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Efecto del botón */
+button:hover {
+    background-color: #004c99;
+}
+
+/* Formulario */
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #0066cc;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
